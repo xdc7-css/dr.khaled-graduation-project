@@ -1,0 +1,33 @@
+# Python & Environment
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter & Notebook dumps
+.ipynb_checkpoints/
+notebook_dump.txt
+
+# Scratch scripts & temporary testing artifacts
+scratch/
+*.log
+*.tmp
+*.bak
+*.bak.*
+
+# Large media / local recordings (kept on local workstation to comply with GitHub file size guidelines)
+assets/*.mp4
+*.mp4
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tool & Editor configs
+.claude/
+.vscode/
+.idea/

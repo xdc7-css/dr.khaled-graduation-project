@@ -1,0 +1,10 @@
+[
+  {
+    "file": "C:\\Users\\InteL\\Downloads\\imu-gesture-smart-remote-main\\imu-gesture-smart-remote-main\\data\\raw_new\\tilt_up.csv",
+    "trial_key": "1_n_15",
+    "raw_gesture": "n",
+    "trial_id": 15,
+    "rows": 51,
+    "reason": "Ambiguous/Unrecognized label: Unknown or unmapped label: 'n'. Quarantined."
+  }
+]

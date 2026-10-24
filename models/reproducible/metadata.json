@@ -1,0 +1,36 @@
+{
+  "pipeline_version": "2.0-reproducible",
+  "feature_columns": [
+    "ax_g",
+    "ay_g",
+    "az_g",
+    "gx_dps",
+    "gy_dps",
+    "gz_dps"
+  ],
+  "window_size": 51,
+  "canonical_classes": [
+    "down",
+    "left",
+    "right",
+    "shake",
+    "still",
+    "up"
+  ],
+  "split_counts": {
+    "train": 83,
+    "val": 18,
+    "test": 18
+  },
+  "held_out_test_metrics": {
+    "rule_baseline_accuracy": 1.0,
+    "rule_baseline_macro_f1": 1.0,
+    "mlp_test_accuracy": 1.0,
+    "mlp_test_macro_f1": 1.0,
+    "cnn_test_accuracy": 1.0,
+    "cnn_test_macro_f1": 1.0
+  },
+  "quarantined_trials_count": 1,
+  "random_state": 42,
+  "data_provenance_note": "Evaluated on single-user, single-session recordings (session_1). Subject-independent generalization cannot be verified from available metadata."
+}
